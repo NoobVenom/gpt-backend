@@ -28,31 +28,16 @@ If your file isn’t already in a folder, create one and place server.js inside 
 
 3. Open Terminal or Command Prompt
 Navigate to your project folder using the terminal:
+Run: cd path/to/your/project
 
-bash
-Copy
-Edit
-cd path/to/your/project
 4. Initialize a package.json File
-Run:
 
-bash
-Copy
-Edit
-npm init -y
+Run: npm init -y
 5. Install Required Packages
 Your code uses these packages: express, axios, and cors.
 
-Run:
-
-bash
-Copy
-Edit
-npm install express axios cors
+Run: npm install express axios cors
 6. Run the Server
 Now start the server with:
 
-bash
-Copy
-Edit
 node server.js
